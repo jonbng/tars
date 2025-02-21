@@ -1,36 +1,51 @@
 "use client";
 
-import * as React from "react";
 import { motion } from "motion/react";
+import { useEffect, useState } from "react";
 
-const variants = [
+export const variants = [
   {
     name: "SMOOTH",
     class: "font-smooth",
     style: { fontFamily: "tarsMonoSmooth" },
+    file: "/fonts/TarsMonoSmooth.ttf",
   },
   {
     name: "SHARP",
     class: "font-sharp",
     style: { fontFamily: "tarsMonoSharp" },
+    file: "/fonts/TarsMonoSharp.ttf",
   },
   {
     name: "ROUNDED",
     class: "font-rounded",
     style: { fontFamily: "tarsMonoRounded" },
+    file: "/fonts/TarsMonoRounded.ttf",
   },
 ];
 
 export function FontToggle() {
-  const [activeVariant, setActiveVariant] = React.useState(variants[0]);
+  const [activeVariant, setActiveVariant] = useState(
+    variants[parseInt(localStorage.getItem("fontVariant") || "0")]
+  );
 
-  React.useEffect(() => {
+  useEffect(() => {
+    // Set the font variant index in localStorage
+    localStorage.setItem(
+      "fontVariant",
+      variants
+        .findIndex((variant) => variant.name === activeVariant.name)
+        .toString()
+    );
+    // Apply the font variant class and style
     document.documentElement.className = activeVariant.class;
     document.documentElement.style.setProperty(
       "--font-current",
       activeVariant.style.fontFamily,
       "important"
     );
+    // Trigger storage event to update other components
+    window.dispatchEvent(new Event("storage"));
   }, [activeVariant]);
 
   return (
