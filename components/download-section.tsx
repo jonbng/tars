@@ -15,7 +15,7 @@ export function DownloadSection() {
       <h2 className="font-tars text-sm tracking-wider text-neutral-500">
         DOWNLOAD
       </h2>
-      <div className="flex gap-4">
+      <div className="flex flex-col md:flex-row gap-4">
         {variants.map((variant) => (
           <motion.a
             key={variant.name}

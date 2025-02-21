@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { motion } from "motion/react";
 
@@ -18,7 +18,7 @@ export function TextShowcase() {
           <p className="font-tars text-6xl leading-16">
             TARS THE ROBOT,
             <br />
-            <span className="text-4xl">HONESTY: 90%, HUMOR: 100%</span>
+            <span className="text-4xl">HONESTY: 90, HUMOR: 100</span>
           </p>
           <p className="font-tars text-xl text-neutral-500">
             SETTINGS CAN BE ADJUSTED
@@ -30,7 +30,7 @@ export function TextShowcase() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
-          className="grid grid-cols-2 gap-8"
+          className="grid grid-cols-1 md:grid-cols-2 gap-8"
         >
           <div className="space-y-4">
             <p className="font-tars text-2xl">RECTANGULAR MONOLITH</p>
@@ -60,7 +60,7 @@ export function TextShowcase() {
           className="space-y-4"
         >
           <p className="font-tars text-4xl leading-tight">
-            "WHY ARE YOU WHISPERING. THEY CAN'T HEAR YOU."
+            "WHY ARE YOU WHISPERING. THEY CANT HEAR YOU."
           </p>
           <p className="font-tars text-xl text-neutral-500">
             — TARS, DEMONSTRATING HUMOR SETTING
@@ -72,7 +72,7 @@ export function TextShowcase() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
-          className="grid grid-cols-3 gap-8 text-sm leading-relaxed"
+          className="hidden md:grid grid-cols-1 md:grid-cols-3 gap-8 text-sm leading-relaxed"
         >
           <p className="font-tars text-neutral-600">
             DESIGNED WITH ARTICULATED JOINTS, TARS CAN TRANSFORM ITS RECTANGULAR
@@ -94,4 +94,3 @@ export function TextShowcase() {
     </div>
   );
 }
-
