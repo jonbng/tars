@@ -1,0 +1,33 @@
+{
+  "short_name": "Tars Mono",
+  "name": "Tars Mono Font",
+  "icons": [
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "https://tars.jonathanb.dk/",
+  "display": "browser",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "dir": "auto",
+  "lang": "en-US",
+  "description": "A monospaced font designed for titles and creative projects.",
+  "categories": [
+    "monospace",
+    "display"
+  ]
+}

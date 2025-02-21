@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tars.jonathanb.dk/sitemap.xml
