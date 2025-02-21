@@ -55,7 +55,7 @@ export function TypeSpecimen() {
         initial={{ y: 40, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.2 }}
-        className="font-tars text-sm sm:text-base md:text-lg max-w-2xl"
+        className="font-tars text-sm sm:text-base md:text-lg max-w-2xl pt-5"
       >
         A MONOSPACED TYPEFACE DESIGNED FOR CODE AND BEYOND. FEATURING THREE
         DISTINCT STYLES: SHARP FOR PRECISION, ROUNDED FOR WARMTH, AND SMOOTH FOR

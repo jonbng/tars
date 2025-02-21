@@ -33,7 +33,7 @@ export function BentoGrid() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: i * 0.1 }}
-            className="p-4 sm:p-6 border bg-white/50 backdrop-blur-sm space-y-2"
+            className="p-4 sm:p-6 border bg-white/50 backdrop-blur-xs space-y-2"
           >
             <h3 className="font-tars text-base sm:text-lg">{item.title}</h3>
             <p className="font-tars text-xs sm:text-sm text-neutral-600">

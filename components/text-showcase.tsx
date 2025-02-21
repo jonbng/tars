@@ -42,30 +42,6 @@ export function TextShowcase() {
           </div>
         </motion.div>
 
-        {/* Technical Specifications */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2 }}
-          className="space-y-6 border rounded-3xl p-8"
-        >
-          <p className="font-tars text-sm tracking-wider text-neutral-500">TECHNICAL SPECIFICATIONS</p>
-          <div className="grid grid-cols-3 gap-6">
-            <div>
-              <p className="font-tars text-sm text-neutral-500 mb-2">HUMOR SETTING</p>
-              <p className="font-tars text-xl">100% CAPACITY</p>
-            </div>
-            <div>
-              <p className="font-tars text-sm text-neutral-500 mb-2">HONESTY PARAMETER</p>
-              <p className="font-tars text-xl">90% CAPACITY</p>
-            </div>
-            <div>
-              <p className="font-tars text-sm text-neutral-500 mb-2">DISCRETION SETTING</p>
-              <p className="font-tars text-xl">95% CAPACITY</p>
-            </div>
-          </div>
-        </motion.div>
-
         {/* Quote */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -73,7 +49,7 @@ export function TextShowcase() {
           transition={{ delay: 0.3 }}
           className="space-y-4"
         >
-          <p className="font-tars text-4xl leading-tight">"EVERYBODY GOOD? PLENTY OF SLAVES FOR MY ROBOT COLONY?"</p>
+          <p className="font-tars text-4xl leading-tight">"WHY ARE YOU WHISPERING? THEY CAN'T HEAR YOU."</p>
           <p className="font-tars text-xl text-neutral-500">— TARS, DEMONSTRATING HUMOR SETTING</p>
         </motion.div>
 

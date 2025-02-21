@@ -33,7 +33,7 @@ export function FontToggle() {
   }, [activeVariant]);
 
   return (
-    <div className="flex items-center gap-1 sm:gap-2 fixed top-4 sm:top-8 right-4 sm:right-8 bg-white/80 backdrop-blur-sm p-1 border">
+    <div className="flex items-center gap-1 sm:gap-2 fixed top-4 sm:top-8 right-4 sm:right-8 bg-white/80 backdrop-blur-xs p-1 border">
       {variants.map((variant) => (
         <button
           key={variant.name}
