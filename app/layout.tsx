@@ -1,8 +1,6 @@
 import type React from "react";
-import { tarsMonoSharp, tarsMonoRounded, tarsMonoSmooth } from "./fonts"
+import { tarsMonoSharp, tarsMonoRounded, tarsMonoSmooth } from "./fonts";
 import "./globals.css";
-import "lenis/dist/lenis.css";
-import { ReactLenis, useLenis } from "lenis/react";
 import { Metadata } from "next";
 
 export default function RootLayout({
@@ -11,10 +9,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${tarsMonoSharp.variable} ${tarsMonoRounded.variable} ${tarsMonoSmooth.variable} overflow-hidden`}>
-      <ReactLenis root options={{ }}>
-        <body className="overflow-hidden">{children}</body>
-      </ReactLenis>
+    <html
+      lang="en"
+      className={`${tarsMonoSharp.variable} ${tarsMonoRounded.variable} ${tarsMonoSmooth.variable} overflow-x-hidden`}
+    >
+      <body className="overflow-x-hidden">{children}</body>
     </html>
   );
 }

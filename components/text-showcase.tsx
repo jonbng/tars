@@ -15,7 +15,7 @@ export function TextShowcase() {
           animate={{ opacity: 1, y: 0 }}
           className="space-y-4"
         >
-          <p className="font-tars text-6xl leading-12">
+          <p className="font-tars text-6xl leading-16">
             TARS THE ROBOT,
             <br />
             <span className="text-4xl">HONESTY: 90%, HUMOR: 100%</span>

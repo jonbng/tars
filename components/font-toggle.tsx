@@ -5,17 +5,17 @@ import { motion } from "motion/react";
 
 const variants = [
   {
-    name: "Smooth",
+    name: "SMOOTH",
     class: "font-smooth",
     style: { fontFamily: "tarsMonoSmooth" },
   },
   {
-    name: "Sharp",
+    name: "SHARP",
     class: "font-sharp",
     style: { fontFamily: "tarsMonoSharp" },
   },
   {
-    name: "Rounded",
+    name: "ROUNDED",
     class: "font-rounded",
     style: { fontFamily: "tarsMonoRounded" },
   },
