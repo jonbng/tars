@@ -10,7 +10,7 @@ import { ArrowLeft, Heart } from "lucide-react";
 
 export default function Home() {
   return (
-    <main className="min-h-screen w-full py-16 sm:py-24">
+    <main className="min-h-screen w-full py-16 sm:py-24 overflow-hidden">
       <Link
         href="https://jonathanb.dk"
         className="fixed top-4 sm:top-8 left-4 sm:left-8 flex items-center gap-2 font-tars text-xs sm:text-sm hover:opacity-60 transition-opacity uppercase"

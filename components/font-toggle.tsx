@@ -5,19 +5,19 @@ import { motion } from "motion/react";
 
 const variants = [
   {
+    name: "Smooth",
+    class: "font-smooth",
+    style: { fontFamily: "tarsMonoSmooth" },
+  },
+  {
     name: "Sharp",
     class: "font-sharp",
-    style: { fontFamily: "Consolas, monospace" },
+    style: { fontFamily: "tarsMonoSharp" },
   },
   {
     name: "Rounded",
     class: "font-rounded",
-    style: { fontFamily: "Monaco, monospace" },
-  },
-  {
-    name: "Smooth",
-    class: "font-smooth",
-    style: { fontFamily: "Menlo, monospace" },
+    style: { fontFamily: "tarsMonoRounded" },
   },
 ];
 
@@ -28,7 +28,8 @@ export function FontToggle() {
     document.documentElement.className = activeVariant.class;
     document.documentElement.style.setProperty(
       "--font-current",
-      activeVariant.style.fontFamily
+      activeVariant.style.fontFamily,
+      "important"
     );
   }, [activeVariant]);
 

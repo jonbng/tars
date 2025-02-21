@@ -9,7 +9,7 @@ import { Toggle } from "@/components/ui/toggle";
 export function TypeTester() {
   const [text, setText] = React.useState("TYPE SOMETHING NICE HERE");
   const [fontSize, setFontSize] = React.useState(32);
-  const [letterSpacing, setLetterSpacing] = React.useState(0);
+  const [letterSpacing, setLetterSpacing] = React.useState(2);
   const [alignment, setAlignment] = React.useState<"left" | "center" | "right">(
     "left"
   );

@@ -1,18 +1,20 @@
-"use client"
+"use client";
 
 import { motion } from "motion/react";
-import { Download } from "lucide-react"
+import { Download } from "lucide-react";
 
 const variants = [
-  { name: "SHARP", file: "/fonts/TarsMonoSharp.woff2" },
-  { name: "ROUNDED", file: "/fonts/TarsMonoRounded.woff2" },
-  { name: "SMOOTH", file: "/fonts/TarsMonoSmooth.woff2" },
-]
+  { name: "SHARP", file: "/fonts/TarsMonoSharp.ttf" },
+  { name: "ROUNDED", file: "/fonts/TarsMonoRounded.ttf" },
+  { name: "SMOOTH", file: "/fonts/TarsMonoSmooth.ttf" },
+];
 
 export function DownloadSection() {
   return (
     <div className="max-w-4xl mx-auto p-8 space-y-4">
-      <h2 className="font-tars text-sm tracking-wider text-neutral-500">DOWNLOAD</h2>
+      <h2 className="font-tars text-sm tracking-wider text-neutral-500">
+        DOWNLOAD
+      </h2>
       <div className="flex gap-4">
         {variants.map((variant) => (
           <motion.a
@@ -29,6 +31,5 @@ export function DownloadSection() {
         ))}
       </div>
     </div>
-  )
+  );
 }
-

@@ -1,17 +1,19 @@
-import localFont from "next/font/local"
+import localFont from "next/font/local";
 
 export const tarsMonoSharp = localFont({
-  src: "../public/fonts/TarsMonoSharp.woff2",
-  variable: "--font-tars-sharp",
-})
+  src: "../public/fonts/TarsMonoSharp.ttf",
+  variable: "--tars-mono-sharp",
+  preload: true,
+});
 
 export const tarsMonoRounded = localFont({
-  src: "../public/fonts/TarsMonoRounded.woff2",
-  variable: "--font-tars-rounded",
-})
+  src: "../public/fonts/TarsMonoRounded.ttf",
+  variable: "--tars-mono-rounded",
+  preload: true,
+});
 
 export const tarsMonoSmooth = localFont({
-  src: "../public/fonts/TarsMonoSmooth.woff2",
-  variable: "--font-tars-smooth",
-})
-
+  src: "../public/fonts/TarsMonoSmooth.ttf",
+  variable: "--tars-mono-smooth",
+  preload: true,
+});

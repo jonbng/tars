@@ -3,7 +3,7 @@
 import * as React from "react"
 import { motion, AnimatePresence } from "motion/react"
 
-const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+,.:;/-"
+const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789,.:;/-"
 
 export function CharacterDetail() {
   const [selectedChar, setSelectedChar] = React.useState<string | null>(null)

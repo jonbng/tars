@@ -60,7 +60,7 @@ export function TextShowcase() {
           className="space-y-4"
         >
           <p className="font-tars text-4xl leading-tight">
-            "WHY ARE YOU WHISPERING? THEY CAN'T HEAR YOU."
+            "WHY ARE YOU WHISPERING. THEY CAN'T HEAR YOU."
           </p>
           <p className="font-tars text-xl text-neutral-500">
             — TARS, DEMONSTRATING HUMOR SETTING

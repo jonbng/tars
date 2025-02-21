@@ -54,8 +54,12 @@
   }
 }
 
+body {
+  letter-spacing: 1.5px;
+}
+
 :root {
-  --font-current: var(--font-tars-sharp);
+  --font-current: var(--tars-mono-smooth);
   --radius: 0px;
     --background: 0 0% 100%;
       --foreground: 0 0% 3.9%;
@@ -102,13 +106,13 @@ body {
 }
 
 .font-sharp {
-  --font-current: var(--font-tars-sharp);
+  --font-current: var(--tars-mono-sharp);
 }
 
 .font-rounded {
-  --font-current: var(--font-tars-rounded);
+  --font-current: var(--tars-mono-rounded);
 }
 
 .font-smooth {
-  --font-current: var(--font-tars-smooth);
+  --font-current: var(--tars-mono-smooth);
 }

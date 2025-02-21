@@ -18,32 +18,32 @@ export function TypeSpecimen() {
         >
           SPECIMEN
         </motion.h2>
-        <div className="relative">
+        <div className="relative mt-7">
           <motion.div
             initial={{ y: 20 }}
             animate={{ y: 0 }}
-            className="font-tars text-[12vw] sm:text-[8vw] md:text-[6vw] leading-none"
+            className="font-tars text-[14vw] sm:text-[8vw] md:text-[6vw] leading-none"
           >
             TARS MONO
           </motion.div>
           {/* Typography Lines */}
           <div className="absolute inset-0 pointer-events-none hidden sm:block">
-            <div className="absolute top-0 left-0 right-0 border-t border-dashed border-neutral-300">
+            <div className="absolute top-[5px] left-0 right-0 border-t border-dashed border-neutral-300">
               <span className="absolute right-full mr-2 text-[10px] sm:text-xs text-neutral-400 font-tars whitespace-nowrap">
                 CAP HEIGHT
               </span>
             </div>
-            <div className="absolute top-1/2 left-0 right-0 border-t border-dashed border-neutral-300">
+            <div className="absolute top-1/3 left-0 right-0 border-t border-dashed border-neutral-300">
               <span className="absolute right-full mr-2 text-[10px] sm:text-xs text-neutral-400 font-tars whitespace-nowrap">
                 X-HEIGHT
               </span>
             </div>
-            <div className="absolute bottom-0 left-0 right-0 border-t border-dashed border-neutral-300">
+            <div className="absolute bottom-[6.5px] left-0 right-0 border-t border-dashed border-neutral-300">
               <span className="absolute right-full mr-2 text-[10px] sm:text-xs text-neutral-400 font-tars whitespace-nowrap">
                 BASELINE
               </span>
             </div>
-            <div className="absolute -bottom-4 left-0 right-0 border-t border-dashed border-neutral-300">
+            <div className="absolute -bottom-5 left-0 right-0 border-t border-dashed border-neutral-300">
               <span className="absolute right-full mr-2 text-[10px] sm:text-xs text-neutral-400 font-tars whitespace-nowrap">
                 DESCENDER
               </span>
