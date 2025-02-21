@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 export function TypeSpecimen() {
   return (
@@ -57,7 +57,7 @@ export function TypeSpecimen() {
         transition={{ delay: 0.2 }}
         className="font-tars text-sm sm:text-base md:text-lg max-w-2xl pt-5"
       >
-        A MONOSPACED TYPEFACE DESIGNED FOR CODE AND BEYOND. FEATURING THREE
+        A MONOSPACED TYPEFACE DESIGNED FOR TITLES AND BEYOND. FEATURING THREE
         DISTINCT STYLES: SHARP FOR PRECISION, ROUNDED FOR WARMTH, AND SMOOTH FOR
         ELEGANCE.
       </motion.p>

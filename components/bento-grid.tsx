@@ -1,12 +1,12 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 const items = [
   {
     title: "PRECISION IN DESIGN",
     description:
-      "CRAFTED WITH METICULOUS ATTENTION TO DETAIL, EACH CHARACTER IN TARS MONO EMBODIES MATHEMATICAL PRECISION AND VISUAL HARMONY.",
+      "CRAFTED WITH PAINSTAKING ATTENTION TO DETAIL, EACH CHARACTER IN TARS MONO EMBODIES MATHEMATICAL PRECISION AND VISUAL HARMONY.",
   },
   {
     title: "THREE PERSONALITIES",
