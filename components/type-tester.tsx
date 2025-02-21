@@ -42,7 +42,7 @@ export function TypeTester() {
           </div>
           <div className="border-t bg-neutral-50 p-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8 mb-3">
-              <div className="space-y-2">
+              <div className="space-y-4 flex flex-col">
                 <Label className="font-tars text-xs sm:text-sm">
                   SIZE: {fontSize}PX
                 </Label>
@@ -54,7 +54,7 @@ export function TypeTester() {
                   step={1}
                 />
               </div>
-              <div className="space-y-2">
+              <div className="space-y-4 flex flex-col">
                 <Label className="font-tars text-xs sm:text-sm">
                   SPACING: {letterSpacing}PX
                 </Label>
