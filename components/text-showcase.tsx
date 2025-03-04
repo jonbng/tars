@@ -60,7 +60,8 @@ export function TextShowcase() {
           className="space-y-4"
         >
           <p className="font-tars text-4xl leading-tight">
-            "WHY ARE YOU WHISPERING. THEY CANT HEAR YOU."
+            "ABSOLUTE HONESTY IS NOT ALWAYS THE MOST DIPLOMATIC NOR THE SAFEST
+            FORM OF COMMUNICATION WITH EMOTIONAL BEINGS."
           </p>
           <p className="font-tars text-xl text-neutral-500">
             — TARS, DEMONSTRATING HUMOR SETTING

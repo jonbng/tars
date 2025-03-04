@@ -11,6 +11,8 @@ import { TextShowcase } from "@/components/text-showcase";
 import { ArrowLeft, Heart } from "lucide-react";
 import { useEffect, useState } from "react";
 import { motion } from "motion/react";
+import Image from "next/image";
+import endurance from "@/public/endurance.svg";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -76,6 +78,15 @@ export default function Home() {
           </Link>
           <FontToggle />
           <TypeSpecimen />
+          <div className="fixed -top-[30%] -right-[25%] flex w-full h-full min-w-5xl min-h-5xl items-start">
+            <Image
+              src={endurance}
+              fill
+              alt="Endurance spaceship outline"
+              className="-z-10 opacity-10 scale-[25%] -rotate-12 w-full h-auto"
+              priority
+            />
+          </div>
           <BentoGrid />
           <CharacterDetail />
           <TextShowcase />
