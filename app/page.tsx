@@ -78,12 +78,12 @@ export default function Home() {
           </Link>
           <FontToggle />
           <TypeSpecimen />
-          <div className="fixed -top-[30%] -right-[25%] flex w-full h-full min-w-5xl min-h-5xl items-start">
+          <div className="fixed -top-[30%] -right-[25%] flex w-full h-full min-w-5xl min-h-5xl items-start -z-50">
             <Image
               src={endurance}
               fill
               alt="Endurance spaceship outline"
-              className="-z-10 opacity-10 scale-[25%] -rotate-12 w-full h-auto"
+              className="opacity-10 scale-[25%] -rotate-12 w-full h-auto"
               priority
             />
           </div>
