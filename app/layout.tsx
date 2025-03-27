@@ -49,8 +49,8 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Tars Mono",
     description: "A monospaced font designed for titles and creative projects.",
-    creator: "@arctixdev",
-    site: "@arctixdev",
+    creator: "@jonba_",
+    site: "@jonba_",
     images: ["/og-image.png"],
   },
   openGraph: {
